@@ -1,12 +1,118 @@
-# React + Vite
+📝 Text Formatter — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Text Formatter is a modern and responsive web tool built with React.js and Vite that helps users easily format, clean, and manipulate text. Whether you’re a developer, writer, or student, this tool simplifies text editing for daily productivity.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+⚛️ Powered By
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project uses the React + Vite setup for blazing-fast development with hot module replacement (HMR) and an optimized build.
+
+Currently supports:
+
+@vitejs/plugin-react — using Babel for Fast Refresh
+
+eslint — with custom rules to ensure code quality
+
+
+
+---
+
+🎯 Features
+
+✅ Convert text to uppercase/lowercase
+
+🧼 Remove extra spaces, newlines, or symbols
+
+🔢 Count words, characters, and sentences
+
+📋 Copy formatted text to clipboard
+
+🎨 Clean and responsive UI/UX
+
+
+
+---
+
+📁 Folder Structure
+
+text-formatter/
+│
+├── public/         → Static files
+├── src/
+│   ├── components/ → Reusable React components
+│   ├── App.jsx     → Main app component
+│   └── main.jsx    → Entry point
+├── index.html      → HTML template
+├── package.json    → Project config & dependencies
+└── vite.config.js  → Vite configuration
+
+
+---
+
+⚙️ Setup & Installation
+
+1. Clone the repository
+git clone https://github.com/your-username/text-formatter.git
+cd text-formatter
+
+
+2. Install dependencies
+npm install
+
+
+3. Run the development server
+npm run dev
+
+
+4. Build for production
+npm run build
+
+
+5. Preview the production build
+npm run preview
+
+
+
+
+---
+
+🧠 Recommended ESLint Configuration
+
+For production apps, consider:
+
+Using TypeScript for type safety
+
+Enabling type-aware linting via typescript-eslint
+
+
+Check out the Vite React TypeScript template for integration.
+
+
+---
+
+📸 Preview
+
+> (Add screenshots or a GIF demo here showing text formatting features in action)
+
+
+
+
+---
+
+📄 License
+
+This project is licensed under the MIT License.
+
+
+---
+
+🙋‍♂️ Author
+
+Ayan Ansari
+📍 Dewas, Madhya Pradesh
+💼 Full-Stack Developer | AI Enthusiast
+🌐 [Your Portfolio or Instagram]
+📧 [Your Email Address]
+
